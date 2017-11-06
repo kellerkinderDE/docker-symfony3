@@ -28,4 +28,4 @@ RUN pecl install imagick && \
 
 ENTRYPOINT ["docker-php-entrypoint"]
 
-CMD ["php", "-a"]
+CMD ["apache2-foreground"]
