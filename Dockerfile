@@ -1,4 +1,4 @@
-FROM php:7.1
+FROM php:7.1-apache
 
 MAINTAINER Uwe Kleinmann <u.kleinmann@kellerkinder.de>
 
