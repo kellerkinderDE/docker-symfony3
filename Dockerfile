@@ -11,6 +11,7 @@ RUN apt-get update -yqq \
     libjpeg62-turbo-dev \
     libmagickwand-6.q16-dev \
     imagemagick-6.q16 \
+    ghostscript \
     libmcrypt-dev \
     libpng12-dev \
     libssl-dev \
