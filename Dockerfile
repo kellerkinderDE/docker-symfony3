@@ -28,6 +28,7 @@ RUN pecl install imagick && \
     docker-php-ext-install gd && \
     docker-php-ext-install intl && \
     docker-php-ext-install zip && \
+    docker-php-ext-install initl && \
     docker-php-ext-install soap
 
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf
