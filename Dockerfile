@@ -16,6 +16,7 @@ RUN apt-get update -yqq \
     libssl-dev \
     libxml2-dev \
     libicu-dev \
+    libzip-dev \
     unzip \
     && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
 
